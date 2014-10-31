@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Reflection;
 using System.Xml;
 
-namespace TPLib.Task
+namespace TaskLib
 {
    
 
@@ -62,7 +62,7 @@ namespace TPLib.Task
         /// 初始化任务管理器
         /// </summary>
         /// <param name="interval">任务扫描间隔</param>
-        /// <param name="assemblyPath"> </param>
+        /// <param name="assemblyPath">程序集、配制文件目录 </param>
         public TaskManager(double interval, string assemblyPath)
         {
             if (!string.IsNullOrEmpty(assemblyPath))

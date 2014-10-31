@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <ScheduleItem Name="TaskTest">
+    <EspecialDay_Off></EspecialDay_Off>
+    <!--范围内（yyyy-MM-dd）多个用逗号隔开-->
+    <EspecialDay_On></EspecialDay_On>
+    <!--范围外（yyyy-MM-dd）多个用逗号隔开-->
+    <StartTime>00:56</StartTime>
+    <!--开始时间-->
+    <EndTime>09:01</EndTime>
+    <IsLoop>True</IsLoop>
+    <!--是否循环执行-->
+    <IsWeekEndStop>false</IsWeekEndStop>
+    <!--周末是否停止-->
+    <IntervalSeconds>10</IntervalSeconds>
+    <!--执行间隔-->
+  </ScheduleItem>
+  <ScheduleItem Name="TaskTest1">
+    <EspecialDay_Off></EspecialDay_Off>
+    <EspecialDay_On></EspecialDay_On>
+    <StartTime>00:57</StartTime>
+    <EndTime>09:01</EndTime>
+    <IsLoop>True</IsLoop>
+    <IsWeekEndStop>false</IsWeekEndStop>
+    <IntervalSeconds>5</IntervalSeconds>
+  </ScheduleItem>
+</config>

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TPLib.Task
+namespace TaskLib
 {
     public class TaskConfig
     {
